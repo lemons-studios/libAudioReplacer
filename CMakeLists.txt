@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.31)
+cmake_minimum_required(VERSION 4.0)
 project(libAudioReplacer)
 set(CMAKE_CXX_STANDARD 23)
 find_package(Boost REQUIRED)
