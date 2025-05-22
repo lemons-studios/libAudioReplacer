@@ -4,5 +4,4 @@ set(CMAKE_CXX_STANDARD 23)
 find_package(Boost REQUIRED)
 
 set(LIBRARY_SOURCES ProjectFileUtils.cpp ProjectFileUtils.hpp)
-
 add_library(AudioReplacer SHARED ${LIBRARY_SOURCES})

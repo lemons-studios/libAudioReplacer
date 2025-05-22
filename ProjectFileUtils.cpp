@@ -1,10 +1,8 @@
 #include "ProjectFileUtils.hpp"
 #include <string>
 #include <boost/filesystem.hpp>
-#include <boost/lambda/bind.hpp>
 
 class ProjectFileUtils {
-
 public:
     static int count_files(const std::string& dir) {
         using namespace boost::filesystem;
