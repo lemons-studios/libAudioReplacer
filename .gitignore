@@ -11,7 +11,11 @@ CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
 
+# Build Folder
+[Bb]uild/
+
 # CLion release profiles
 cmake-build-debug/
 cmake-build-release/
+# JetBrains IDE project config folder
 .idea/

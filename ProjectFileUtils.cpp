@@ -1,4 +1,4 @@
-#include "ProjectFileUtils.h"
+#include "ProjectFileUtils.hpp"
 #include <string>
 #include <boost/filesystem.hpp>
 #include <boost/lambda/bind.hpp>
