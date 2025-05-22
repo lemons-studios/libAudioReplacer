@@ -3,4 +3,10 @@ project(libAudioReplacer)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_library(libAudioReplacer SHARED library.cpp)
+find_package(Boost REQUIRED)
+
+set(LIBRARY_SOURCES
+        ProjectFileUtils.cpp
+)
+
+add_library(AudioReplacer SHARED ${LIBRARY_SOURCES})
